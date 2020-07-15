@@ -22,6 +22,7 @@ class DataTypes {
         System.out.print("Enter your name: ");
         String name = userinput.nextLine();
         System.out.println("your name is: " + name);
+        userinput.close();
 
     }
     

@@ -1,8 +1,6 @@
 package HackeRank;
 
 import java.util.*;
-import java.io.*;
-import java.math.*;
 import java.time.LocalDate;
 
 class Recursive
