@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PracticeApplication",
+            "request": "launch",
+            "mainClass": "com.lear.spring.basics.practice.PracticeApplication",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LinkList",
             "request": "launch",
             "mainClass": "DataStructure.LinkedList.LinkList",
