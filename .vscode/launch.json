@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PracticeScopeApplication",
+            "request": "launch",
+            "mainClass": "com.lear.spring.basics.practice.PracticeScopeApplication",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch PracticeBasicApplication",
+            "request": "launch",
+            "mainClass": "com.lear.spring.basics.practice.PracticeBasicApplication",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "Launch PracticeApplication",
             "request": "launch",
             "mainClass": "com.lear.spring.basics.practice.PracticeApplication",

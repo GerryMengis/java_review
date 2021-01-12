@@ -1,13 +1,18 @@
-package com.lear.spring.basics.practice;
+package com.lear.spring.basics.practice.Basic;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class BinarySearchImpl {
 
     @Autowired
+    @Qualifier("quick")
     private SortAlgorithm sortAlgorithm;
 
     // Setter/no setter injection by taking Constructor out
